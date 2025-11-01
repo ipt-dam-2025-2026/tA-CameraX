@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">Camera X</string>
     <string name="txt_bt">Tirar foto</string>
+    <string name="permission_denied">Permissões negadas</string>
+    <string name="after_take_photo">Fotografia tirada:\n%1$s</string>
 </resources>
+    <!--
+        formatação de strings, em Kotlin
+        https://developer.android.com/guide/topics/resources/string-resource?hl=pt-br#FormattingAndStyling
+        https://kotlinlang.org/docs/strings.html
+
+        %1s -> string
+        %1d -> decimal
+        %1f -> float
+        %1i -> integer
+        %1$s -> primeiro argumento
+        %2$s -> segundo argumento
+        ...
+
+        caracteres de 'escape'
+        \n -> nova linha
+        \t -> tabulação
+        ...
+
+    -->
